@@ -1,63 +1,64 @@
 body {
-    background: crimson ;
-    color: rgb(0, 0, 0);
-    padding: 10px;
-    font-family: spectral;
+  background: rgb(93, 171, 115);
+  color: rgb(225, 22, 56);
+  padding: 10px;
+  font-family: spectral;
 }
 #all-contents {
   max-width: 800px;
-    margin: auto;
+  margin: auto;
 }
 
 /* navigation menu */
 nav {
-    background: rgb(242, 255, 0);
-   margin: 0 auto;
-   margin-bottom: 20px;
-    display: flex;
-    padding: 10px;
+  background: rgb(138, 131, 77);
+  margin: 0 auto;
+  margin-bottom: 20px;
+  display: flex;
+  padding: 10px;
 }
 h1 {
-    display: flex;
-    align-items: center;
-    color: rgb(46, 37, 2);
-    flex: 1;
-    margin: 0;
+  display: flex;
+  align-items: center;
+  color: rgb(46, 37, 2);
+  flex: 1;
+  margin: 0;
 }
 #nav-ul {
-    list-style-image: none;
+  list-style-image: none;
 }
 .nav-li {
-    display: inline-block;
-    padding: 0 10px;
+  display: inline-block;
+  padding: 0 10px;
 }
 a {
-    text-decoration: none;
-    color: #1d77a1;
+  text-decoration: none;
+  color: #3b0352;
 }
 
 /* main container area beneath menu */
 main {
-    background: rgb(143, 2, 2);
-    display: flex;
+  background: rgb(143, 2, 2);
+  display: flex;
 }
 .sidebar {
-    margin-right: 25px;
-    padding: 10px;
+  margin-right: 25px;
+  padding: 10px;
 }
 .sidebar-img {
-    width: 200px;
+  width: 200px;
 }
 .content {
-    flex: 1;
-    padding: 15px;
+  flex: 1;
+  padding: 15px;
 }
 
 /* portfolio styles */
 #interests {
-    border: 4px rgb(0, 0, 0) ridge;
-    padding: 8px;
+  border: 4px rgb(15, 204, 192) ridge;
+  padding: 8px;
 }
-h2, h3 {
-    margin: 5px;
+h2,
+h3 {
+  margin: 5px;
 }
