@@ -58,8 +58,7 @@ main {
   border: 4px rgb(15, 204, 192) ridge;
   padding: 8px;
 }
-h2,
-h3 {
+h2,h3 {
   margin: 5px;
 }
 
