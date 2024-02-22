@@ -45,10 +45,10 @@ $(function () {
     // example usage: createPlatform(x,y,width,height)
 
 createPlatform (2000,3000,200,10); 
-createPlatform (300,150, 300,15);
-createPlatform (100,100,400,20);
-createPlatform (200, 125,350,15);
-createPlatform (400,175, 250,15);
+createPlatform (3000,1500, 300,15);
+createPlatform (1000,1000,400,20);
+createPlatform (2000, 1250,350,15);
+createPlatform (4000,1750, 250,15);
     
     // TODO 2
     // Create collectables
