@@ -56,7 +56,7 @@ createPlatform (800,800, 250,15);
     // Your collectable choices are 'database' 'diamond' 'grace' 'kennedi' 'max' and 'steve'; more can be added if you wish
     // example usage: createCollectable(type, x, y, gravity, bounce)
     createCollectable("grace",200,125,15,0.75); // creates a "grace" collectible at the coordinates (200, 125), falling with a gravity of 15, and bouncing with 50% bounce
-    createCollectable("steve", 200, 170 , 6, 0.7 ); // creates a "diamond" collectible at the coordinates (500,200), falling with gravity of 5 and bouncing with 90% bounce 
+    createCollectable("steve", 900, 800  , 6, 0.7 ); // creates a "diamond" collectible at the coordinates (500,200), falling with gravity of 5 and bouncing with 90% bounce 
     createCollectable("kennedi",400,175); // creates a "kennedi" collectible at the coordinates (400,175)), falling with default gravity of and default bounce
 
 
