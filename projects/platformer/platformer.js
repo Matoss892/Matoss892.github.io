@@ -66,7 +66,7 @@ createPlatform (500,450, 250,15);
     // Your wall choices are: 'top' 'left' 'right' and 'bottom'
     // example usage: createCannon(side, position, delay, width, height)
    createCannon("right", 500, 500) 
-   createCannon("left", 125, 1000)
+   createCannon("left", 600, 1000)
    createCannon("top", 400, 1000)
 
 
