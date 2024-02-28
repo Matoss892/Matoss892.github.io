@@ -67,8 +67,8 @@ createPlatform (250,650,200,15);
     // example usage: createCannon(side, position, delay, width, height)
    createCannon("right", 400, 900) 
    createCannon("left", 610, 100)
-   createCannon("top", 500, 1000)
-
+   createCannon("top", 500, 1100)
+   createCannon("top",600, 1000)
 
 
     /////////////////////////////////////////////////
