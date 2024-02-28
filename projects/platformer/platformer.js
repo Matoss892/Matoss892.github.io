@@ -55,8 +55,8 @@ createPlatform (250,650,200,15);
     // You must decide on the collectable type, the x position, the y position, the gravity, and the bounce strength
     // Your collectable choices are 'database' 'diamond' 'grace' 'kennedi' 'max' and 'steve'; more can be added if you wish
     // example usage: createCollectable(type, x, y, gravity, bounce)
-    createCollectable("grace",575,390, 15 , 0.75); // creates a "grace" collectible at the coordinates (200, 125), falling with a gravity of 15, and bouncing with 50% bounce
-    createCollectable("steve",725,270, 6, 0.7 ); // creates a "diamond" collectible at the coordinates (500,200), falling with gravity of 5 and bouncing with 90% bounce 
+    createCollectable("grace",575,380,15 , 0.75); // creates a "grace" collectible at the coordinates (200, 125), falling with a gravity of 15, and bouncing with 50% bounce
+    createCollectable("steve",725,260 , 6, 0.7 ); // creates a "diamond" collectible at the coordinates (500,200), falling with gravity of 5 and bouncing with 90% bounce 
     createCollectable("kennedi",250,175, 8, 0.3); // creates a "kennedi" collectible at the coordinates (400,175)), falling with default gravity of and default bounce
 
 
@@ -67,8 +67,8 @@ createPlatform (250,650,200,15);
     // example usage: createCannon(side, position, delay, width, height)
    createCannon("right", 400, 900) 
    createCannon("left", 610, 100)
-   createCannon("top", 500, 1100)
-   createCannon("top",600, 1000)
+   createCannon("top", 500, 1250)
+   createCannon("top", 610, 1100)
 
 
     /////////////////////////////////////////////////
