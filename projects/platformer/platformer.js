@@ -44,11 +44,11 @@ $(function () {
     // You must decide the x position, y position, width, and height of the platforms
     // example usage: createPlatform(x,y,width,height)
 
-createPlatform (710,50, 200 ,10); 
-createPlatform (550,150, 200,15);
-createPlatform (650,250,200 ,25);
-createPlatform (500,350,200,15);
-createPlatform (250,650,250,15);
+createPlatform (100,50, 90 ,10); 
+createPlatform (550,150, 150 ,15);
+createPlatform (650,250,150 ,25);
+createPlatform (500,350,150,15);
+createPlatform (250,650,200,15);
     
     // TODO 2
     // Create collectables
@@ -57,7 +57,7 @@ createPlatform (250,650,250,15);
     // example usage: createCollectable(type, x, y, gravity, bounce)
     createCollectable("grace",730,125,15,0.75); // creates a "grace" collectible at the coordinates (200, 125), falling with a gravity of 15, and bouncing with 50% bounce
     createCollectable("steve",700, 300, 6, 0.7 ); // creates a "diamond" collectible at the coordinates (500,200), falling with gravity of 5 and bouncing with 90% bounce 
-    createCollectable("kennedi",400,175,20 ); // creates a "kennedi" collectible at the coordinates (400,175)), falling with default gravity of and default bounce
+    createCollectable("kennedi",250,175,0.8 ); // creates a "kennedi" collectible at the coordinates (400,175)), falling with default gravity of and default bounce
 
 
     // TODO 3
