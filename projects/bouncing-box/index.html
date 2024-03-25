@@ -75,10 +75,10 @@
           }
 
           if (positionX < 0) {
-             speed = speed ;
+            speed = speed;
           }
-            // Frame 1
-            positionX = 0 + speed;
+          // Frame 1
+          positionX = 0 + speed;
           moveBoxTo(positionX);
 
           // Frame 2
@@ -95,6 +95,27 @@
           // Frame 4
           positionX = 30 + speed;
           moveBoxTo(positionX);
+
+          positionX = 40 + speed;
+          moveBoxTo(positionX);
+
+          positionX = 50 + speed;
+          moveBoxTo(positionX);
+
+          positionX = 60 + speed;
+          moveBoxTo(positionX);
+
+          positionX = 70 + speed;
+          moveBoxTo(positionX);
+
+          positionX = 80 + speed;
+          moveBoxTo(positionX);
+
+          positionX = 90 + speed;
+          moveBoxTo(positionX);
+
+          positionX = 100 + speed;
+          moveBoxTo(positionX);
         }
 
         /*
@@ -104,12 +125,11 @@
       */
         function handleBoxClick() {
           positionX = 0;
-         if (speed === speed) {
-          speed = speed + 3 ;
-         }
-         else if (speed === -speed) {
-           speed = speed - 3 ;
-         }
+          if (speed === speed) {
+            speed = speed + 3;
+          } else if (speed === -speed) {
+            speed = speed - 3;
+          }
           points = points + 1;
           changeBoxText(points);
         }
