@@ -15,7 +15,7 @@
         display: block;
         position: absolute;
         top: 100px;
-        left: 200px;
+        left: 300px;
       }
       .board {
         height: 100vh;
@@ -48,7 +48,7 @@
 
         // moves the Box to a new position on the screen along the X-Axis
         function moveBoxTo(newPositionX) {
-          box.css("left", newPositionX);
+          box.css("left", 300);
         }
 
         // changes the text displayed on the Box
@@ -70,13 +70,9 @@
       turn it around!
       */
         function update() {
-          if (positionX > boardWidth) {
-            speed = -speed;
-          }
+          positionX = positionX + speed;
+          moveBoxTo(positionX);
 
-          if (positionX < 0) {
-            speed = speed;
-          }
           // Frame 1
           positionX = 0 + speed;
           moveBoxTo(positionX);
@@ -84,9 +80,6 @@
           // Frame 2
           positionX = speed + speed;
           moveBoxTo(positionX);
-
-          // The Box is Clicked
-          positionX = 0;
 
           // Frame 3
           positionX = 20 + speed;
@@ -117,6 +110,13 @@
           positionX = 100 + speed;
           moveBoxTo(positionX);
         }
+        if (positionX > boardWidth) {
+          speed *= -1;
+        }
+
+        if (positionX < 0) {
+          speed *= 1;
+        }
 
         /*
       This Function will be called each time the box is clicked. Each time it is called,
@@ -126,9 +126,9 @@
         function handleBoxClick() {
           positionX = 0;
           if (speed === speed) {
-            speed = speed + 3;
+            speed += 3;
           } else if (speed === -speed) {
-            speed = speed - 3;
+            speed -= 3; 
           }
           points = points + 1;
           changeBoxText(points);
