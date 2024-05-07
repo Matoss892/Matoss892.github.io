@@ -24,8 +24,11 @@ var circle;
 var circle = [];
 
         // TODO 2 : Create a function that draws a circle 
-function drawCircle() {
-
+var drawCircle = function() {
+circle = draw.randomCircleInArea(canvas, true, true, '#999',2);
+physikz.addRandomVelocity(circle,canvas);
+circles.push(circle);
+view.addChild(child);
 }
 
         // TODO 3 / 7 : Call the drawCircle() function 
@@ -43,9 +46,13 @@ for (var loopsCompleted = 0; loopsCompleted < 101; loopsCompleted++) {
         In each frame, for every circle, it should redraw that circle
         and check to see if it has drifted off the screen.         
         */
-        function update() {
+        var update = function() {
             // TODO 4 : Update the circle's position //
-            
+            physikz.updatePosition(circles[0]);
+            physikz.updatePosition(circles[1]);
+            physikz.updatePosition(circles[2]);
+            physikz.updatePosition(circles[3]);
+            physikz.updatePosition(circles[4]);
             
             // TODO 5 / 10 : Call game.checkCirclePosition() on your circles.
            
